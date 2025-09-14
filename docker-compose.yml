@@ -1,9 +1,20 @@
 version: '3.9'
 services:
-    anxiety-aid-tools:
-        image: 'anxiety-aid-tools:v1.1.0'
-        ports:
-            - '3000:3000'
-        tty: true
-        stdin_open: true
+  anxiety-aid-tools:
+    # Local development & test build (uses Dockerfile). The built image will be tagged below.
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Local tag; change to your registry path (e.g. ghcr.io/USERNAME/anxiety-aid-tools:v2.1.0) when pushing.
+    image: 'anxiety-aid-tools:local'
+    ports:
+      - "3000:3000"
+    # Basic liveness probe (busybox wget is in alpine base). Adjust timings as needed.
+    healthcheck:
+      test: ['CMD-SHELL', 'wget -qO- http://127.0.0.1:3000/ >/dev/null 2>&1 || exit 1']
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped
 

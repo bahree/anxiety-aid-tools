@@ -1,0 +1,37 @@
+# Reduce build context size & keep layers cache-friendly
+# Node / Nuxt build artifacts
+node_modules
+.output
+.cache
+.nuxt
+
+# VCS / IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Logs & diagnostics
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Env / secrets (ensure you inject via build args or runtime env)
+.env
+.env.*
+!.env.example
+certs/
+
+# Tests / coverage
+coverage
+reports
+
+# Docker & compose (not needed inside image)
+Dockerfile
+docker-compose.yml
+
+# Misc
+DS_Store
+Thumbs.db
