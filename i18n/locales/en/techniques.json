@@ -59,6 +59,120 @@
       "short_description": "Interactive stress ball to squeeze away tension and redirect anxious energy through tactile engagement",
       "description": "Sometimes physical tension needs a physical release. This virtual stress ball provides a satisfying tactile experience that helps channel nervous energy and anxiety into purposeful squeezing motions. The repetitive action helps calm your mind while giving your body a way to release built-up stress and tension.",
       "duration": "1-5 min"
+    },
+    "superheroBreathing": {
+      "name": "Superhero Breathing",
+      "short_description": "Kid-friendly breathing exercise with superhero theme to help children calm down",
+      "description": "A fun, engaging breathing exercise designed especially for kids! Pretend you're a superhero and use your superpower breath to feel calm and strong. This technique makes breathing exercises exciting and easy for children to understand and practice.",
+      "duration": "2-3 min"
+    },
+    "scavengerHuntGrounding": {
+      "name": "5 Senses Scavenger Hunt",
+      "short_description": "Fun grounding game for kids using your 5 senses to find things around you",
+      "description": "A playful way to help kids feel calm! Go on a scavenger hunt using your 5 senses - find things you can see, touch, hear, smell, and taste. This fun game helps children focus on what's around them right now instead of worrying thoughts.",
+      "duration": "3-5 min"
+    },
+    "calmDownJar": {
+      "name": "Calm Down Jar",
+      "short_description": "Watch the glitter settle in this calming visual timer for kids",
+      "description": "A magical calming tool! Watch the glitter swirl and slowly settle in the jar. This helps kids practice patience and gives them something peaceful to focus on when they feel upset or worried. It's like a timer that helps your mind feel calm too!",
+      "duration": "2-5 min"
+    },
+    "worryMonster": {
+      "name": "Worry Monster",
+      "short_description": "Feed your worries to a friendly monster to help them feel smaller",
+      "description": "Meet the Worry Monster! When you have worries, you can write them down and feed them to this friendly monster. The monster eats your worries so you don't have to carry them around. This helps kids understand that worries are just thoughts, not scary things that will happen!",
+      "duration": "3-5 min"
+    },
+    "magicBubbleBreathing": {
+      "name": "Magic Bubble Breathing",
+      "short_description": "Watch a beautiful bubble grow and shrink as you breathe",
+      "description": "Blow a magic bubble with your breath! Watch the bubble grow bigger when you breathe in and get smaller when you breathe out. The colorful, sparkly bubble helps you focus on your breathing and feel calm. It's like blowing real bubbles, but even more magical!",
+      "duration": "2-3 min"
+    },
+    "teensBodyScan": {
+      "name": "Body Scan for Teens",
+      "short_description": "Gentle body awareness exercise to notice and release tension",
+      "description": "A mindful way to check in with your body and notice how you're feeling. This body scan guides you through different parts of your body, helping you become aware of tension, tightness, or discomfort. By noticing these sensations without judgment, you can learn to release tension and feel more relaxed and present.",
+      "duration": "5-10 min"
+    },
+    "futureWorryTime": {
+      "name": "Future Worry Time",
+      "short_description": "Schedule a specific time to worry, so worries don't take over your day",
+      "description": "Instead of worrying all day long, set aside a specific time just for worrying! This technique helps you contain your worries to a scheduled time period. When worries pop up during the day, you can tell yourself 'I'll think about that during my worry time' and then actually do it. This helps you take control of when and how you worry.",
+      "duration": "10-15 min"
+    },
+    "ocdThoughtLabeling": {
+      "name": "OCD Thought Labeling",
+      "short_description": "Recognize obsessions vs. reality by labeling your thoughts",
+      "description": "Learn to identify and label intrusive thoughts and obsessions. This technique helps you recognize that thoughts are just thoughts - they're not facts, and having a thought doesn't mean it will come true. By labeling your thoughts, you can create distance from them and reduce their power over you.",
+      "duration": "5-10 min"
+    },
+    "compulsionDelay": {
+      "name": "Compulsion Delay Timer",
+      "short_description": "Gradually delay compulsive behaviors using a timer",
+      "description": "Use a timer to gradually delay acting on compulsions. This ERP technique helps you build tolerance for anxiety by waiting before performing compulsive behaviors. Start with short delays and gradually increase the time. Each successful delay builds your ability to resist compulsions.",
+      "duration": "Variable (5-30 min)"
+    },
+    "uncertaintyTolerance": {
+      "name": "Uncertainty Tolerance Exercises",
+      "short_description": "Build comfort with uncertainty and not knowing",
+      "description": "Practice sitting with uncertainty. OCD often involves an intense need for certainty. These exercises help you build tolerance for not knowing, which is a core component of OCD treatment. Learn to accept that some things are uncertain and that's okay.",
+      "duration": "10-15 min"
+    },
+    "ocdMindfulness": {
+      "name": "Mindfulness for Intrusive Thoughts",
+      "short_description": "Observe intrusive thoughts without engaging with them",
+      "description": "Practice mindfulness specifically adapted for OCD. Learn to observe intrusive thoughts and obsessions without getting caught up in them or trying to make them go away. This ACT-based approach helps you develop a different relationship with your thoughts.",
+      "duration": "5-10 min"
+    },
+    "nauseaManagement": {
+      "name": "Nausea Management",
+      "short_description": "Breathing and grounding techniques for nausea sensations",
+      "description": "Specific breathing patterns and grounding techniques to help manage nausea sensations. These techniques can help distinguish between anxiety-induced nausea and actual physical nausea, and provide tools to calm your body when you feel nauseous.",
+      "duration": "3-5 min"
+    },
+    "sensationLabeling": {
+      "name": "Body Sensation Labeling",
+      "short_description": "Learn to distinguish anxiety from actual nausea",
+      "description": "Practice identifying and labeling body sensations to help distinguish between anxiety-induced physical symptoms and actual nausea. This cognitive technique helps you understand what your body is really feeling and reduces fear around physical sensations.",
+      "duration": "5-10 min"
+    },
+    "safeFoodsVisualization": {
+      "name": "Safe Foods Visualization",
+      "short_description": "Build confidence around eating through guided imagery",
+      "description": "Use guided visualization to help build confidence around eating and food. This technique helps you imagine eating safely and comfortably, which can reduce anxiety around food and eating situations.",
+      "duration": "5-10 min"
+    },
+    "copingCards": {
+      "name": "Coping Cards",
+      "short_description": "Create personalized cards with coping strategies for difficult moments",
+      "description": "Create and use personalized coping cards with strategies, affirmations, and reminders that help you during difficult moments. You can write down what helps you, positive reminders, or step-by-step coping strategies. Keep these cards handy for when you need them most.",
+      "duration": "Ongoing"
+    },
+    "testAnxietyReset": {
+      "name": "Test Anxiety Reset",
+      "short_description": "Quick technique to calm your mind before or during tests and exams",
+      "description": "Feeling nervous about a test? This quick reset helps you calm your mind and body so you can focus on what you know. Use it right before a test starts, or take a quick break during the test if you feel overwhelmed. It combines breathing with helpful thoughts to get you back in the zone.",
+      "duration": "2-3 min"
+    },
+    "socialAnxietyGrounding": {
+      "name": "Social Anxiety Grounding",
+      "short_description": "Quick grounding technique for social situations like parties, presentations, or group settings",
+      "description": "Feeling anxious in social situations? This technique helps you stay present and calm when you're around other people. Use it before entering a social situation, or discreetly during conversations if you start to feel overwhelmed. It uses subtle grounding techniques you can do without anyone noticing.",
+      "duration": "3-5 min"
+    },
+    "performanceAnxietyPrep": {
+      "name": "Performance Anxiety Prep",
+      "short_description": "Pre-performance routine for presentations, performances, or public speaking",
+      "description": "Nervous about presenting or performing? This quick prep routine helps you get in the zone before you go on stage or speak in front of others. It combines breathing, visualization, and confidence-building techniques to help you perform at your best.",
+      "duration": "3-5 min"
+    },
+    "interactiveArt": {
+      "name": "Interactive Art Therapy",
+      "short_description": "Create beautiful symmetric patterns through drawing - a calming art therapy tool",
+      "description": "Express yourself through interactive art! Draw freely and watch as your movements create beautiful, symmetric patterns. This creative tool helps redirect anxious energy into something beautiful, providing a meditative and calming experience through art.",
+      "duration": "5-15 min"
     }
   }
 }

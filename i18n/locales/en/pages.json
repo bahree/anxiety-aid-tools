@@ -56,6 +56,32 @@
           "description": "Leading scientific organization providing in-depth information on anxiety treatment, therapy options, and expert insights."
         }
       ]
+    },
+    "helpfulTools": {
+      "title": "Helpful Tools & Resources",
+      "description": "Additional interactive tools and visual aids that can complement your anxiety management practice:",
+      "list": [
+        {
+          "name": "eXHALeR - Interactive Breathing Visualizer",
+          "url": "https://xhalr.com",
+          "description": "Customizable breathing exercises with beautiful visual animations. Great for guided breathing practice with various patterns and timing options."
+        },
+        {
+          "name": "Box Breathing Visualizer",
+          "url": "https://lassebomh.github.io/box-breathing",
+          "description": "Animated guide for box breathing technique (4-4-4-4 pattern). Simple, effective visualization for equal-part breathing exercises."
+        },
+        {
+          "name": "Mindful Breathing Visualizer",
+          "url": "https://breathe.philgear.biz",
+          "description": "Visual representations of different breathing exercises including box breathing and diaphragmatic breathing with customizable settings."
+        },
+        {
+          "name": "The Trevor Project Breathing Exercise",
+          "url": "https://www.thetrevorproject.org/breathing-exercise",
+          "description": "One-minute guided visual breathing exercise designed to help with stress and anxiety. Simple and accessible for all ages."
+        }
+      ]
     }
   },
 
@@ -68,5 +94,12 @@
       "github": "GitHub",
       "discussions": "Discussions"
     }
+  },
+  "filters": {
+    "all": "All Techniques",
+    "kids": "For Kids",
+    "teens": "For Teens",
+    "ocd": "OCD Support",
+    "emetophobia": "Emetophobia"
   }
 }

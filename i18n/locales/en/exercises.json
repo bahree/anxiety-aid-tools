@@ -1427,5 +1427,1109 @@
         "description": "Daily sessions of 10-20 minutes provide the most benefit for anxiety reduction."
       }
     }
+  },
+  "superheroBreathing": {
+    "benefits": {
+      "strong": {
+        "title": "Feel Strong",
+        "description": "Like a superhero with superpowers!"
+      },
+      "calm": {
+        "title": "Stay Calm",
+        "description": "Your body will feel peaceful and relaxed"
+      },
+      "brave": {
+        "title": "Be Brave",
+        "description": "You can handle anything that comes your way"
+      }
+    },
+    "session": {
+      "title": "Superhero Breathing Time!",
+      "subtitle": "Use your superpower breath to feel calm",
+      "breatheIn": "Breathe in like a superhero!",
+      "breatheOut": "Breathe out slowly...",
+      "threeSeconds": "3 seconds",
+      "breaths": "super breaths"
+    },
+    "buttons": {
+      "begin": "Start Superhero Breathing",
+      "beginAriaLabel": "Start the superhero breathing exercise",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "You Did It, Superhero!",
+      "message": "Great job! You used your superpower breath to feel calm and strong. You can do this anytime you need to feel better!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Superhero Breathing Works",
+        "description": "When you breathe like a superhero, you're using your superpower to calm your body down. Just like superheroes need to take deep breaths before they save the day, you can use this breathing to feel strong and calm whenever you need to!"
+      },
+      "tips": {
+        "title": "Tips for Superhero Breathing",
+        "items": [
+          "Find a comfy spot where you can sit or lie down",
+          "Pretend you're your favorite superhero while you breathe",
+          "It's okay if you don't get it perfect - practice makes you stronger!",
+          "You can do this anytime you feel worried or scared"
+        ]
+      }
+    }
+  },
+  "scavengerHunt": {
+    "benefits": {
+      "focus": {
+        "title": "Stay Focused",
+        "description": "Look around and find cool things!"
+      },
+      "fun": {
+        "title": "Have Fun",
+        "description": "It's like a game you can play anywhere"
+      },
+      "calm": {
+        "title": "Feel Calm",
+        "description": "Helps your mind feel peaceful"
+      }
+    },
+    "steps": {
+      "see": {
+        "title": "Step 1: What Can You See?",
+        "instruction": "Find 5 things you can see around you!",
+        "items": {
+          "0": {
+            "name": "Something blue",
+            "hint": "Look for anything that's blue!"
+          },
+          "1": {
+            "name": "Something round",
+            "hint": "Find something that's a circle!"
+          },
+          "2": {
+            "name": "Something that moves",
+            "hint": "Watch for things that wiggle or move!"
+          },
+          "3": {
+            "name": "Something you like",
+            "hint": "Find something that makes you happy!"
+          },
+          "4": {
+            "name": "Something small",
+            "hint": "Look for something tiny!"
+          }
+        }
+      },
+      "touch": {
+        "title": "Step 2: What Can You Touch?",
+        "instruction": "Find 4 things you can touch!",
+        "items": {
+          "0": {
+            "name": "Something soft",
+            "hint": "Feel for something cozy!"
+          },
+          "1": {
+            "name": "Something smooth",
+            "hint": "Find something that feels nice!"
+          },
+          "2": {
+            "name": "Something cool",
+            "hint": "Touch something that's not warm!"
+          },
+          "3": {
+            "name": "Something bumpy",
+            "hint": "Feel for something with texture!"
+          },
+          "4": {
+            "name": "Your own hand",
+            "hint": "Touch your hand - you're always with you!"
+          }
+        }
+      },
+      "hear": {
+        "title": "Step 3: What Can You Hear?",
+        "instruction": "Find 3 things you can hear!",
+        "items": {
+          "0": {
+            "name": "A quiet sound",
+            "hint": "Listen for something soft!"
+          },
+          "1": {
+            "name": "A far away sound",
+            "hint": "Hear something in the distance!"
+          },
+          "2": {
+            "name": "Your own breathing",
+            "hint": "Listen to yourself breathe!"
+          },
+          "3": {
+            "name": "A repeating sound",
+            "hint": "Find a sound that happens again and again!"
+          },
+          "4": {
+            "name": "A nature sound",
+            "hint": "Listen for birds, wind, or water!"
+          }
+        }
+      },
+      "smell": {
+        "title": "Step 4: What Can You Smell?",
+        "instruction": "Find 2 things you can smell!",
+        "items": {
+          "0": {
+            "name": "Fresh air",
+            "hint": "Take a deep breath and smell!"
+          },
+          "1": {
+            "name": "Something nearby",
+            "hint": "Smell something close to you!"
+          },
+          "2": {
+            "name": "Your clothes",
+            "hint": "Smell your shirt or jacket!"
+          },
+          "3": {
+            "name": "Something familiar",
+            "hint": "Find a smell you know!"
+          },
+          "4": {
+            "name": "Clean smell",
+            "hint": "Notice if the air smells fresh!"
+          }
+        }
+      },
+      "taste": {
+        "title": "Step 5: What Can You Taste?",
+        "instruction": "Find 1 thing you can taste!",
+        "items": {
+          "0": {
+            "name": "Your mouth",
+            "hint": "Notice what your mouth tastes like!"
+          },
+          "1": {
+            "name": "Water if you have it",
+            "hint": "Take a sip if you have water!"
+          },
+          "2": {
+            "name": "The air",
+            "hint": "Taste the air when you breathe!"
+          },
+          "3": {
+            "name": "Something you ate",
+            "hint": "Remember what you last ate!"
+          },
+          "4": {
+            "name": "Your lips",
+            "hint": "Lick your lips and notice the taste!"
+          }
+        }
+      }
+    },
+    "itemsFound": "items found",
+    "buttons": {
+      "begin": "Start Scavenger Hunt",
+      "back": "Back",
+      "next": "Next Sense",
+      "finish": "Finish Hunt",
+      "stop": "Stop",
+      "playAgain": "Play Again"
+    },
+    "completion": {
+      "title": "Awesome Job, Explorer!",
+      "message": "You found everything! You used all your super senses to explore the world around you. Great work!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How the Scavenger Hunt Works",
+        "description": "This fun game helps kids focus on what's happening right now instead of worrying thoughts. By using all 5 senses to find things, your brain gets busy with the game and forgets to worry!"
+      },
+      "tips": {
+        "title": "Tips for the Scavenger Hunt",
+        "items": [
+          "You can play this game anywhere - inside or outside!",
+          "It's okay if you can't find everything - just try your best!",
+          "Have fun exploring with your senses!",
+          "You can play this game with a friend or grown-up too!"
+        ]
+      }
+    }
+  },
+  "calmDownJar": {
+    "benefits": {
+      "patience": {
+        "title": "Practice Patience",
+        "description": "Watch and wait - good things take time!"
+      },
+      "focus": {
+        "title": "Stay Focused",
+        "description": "Watch the glitter and let your mind rest"
+      },
+      "calm": {
+        "title": "Feel Calm",
+        "description": "Your body will feel peaceful and relaxed"
+      }
+    },
+    "session": {
+      "title": "Calm Down Jar Time!",
+      "subtitle": "Watch the glitter settle and feel your mind calm down",
+      "watching": "Watch the glitter...",
+      "settled": "All settled!",
+      "instruction": "Take deep breaths and watch the glitter slowly fall. When it's all settled, you can shake it again!",
+      "timeElapsed": "Time watching"
+    },
+    "buttons": {
+      "begin": "Start Calm Down Jar",
+      "shake": "Shake the Jar",
+      "stop": "Stop",
+      "finish": "I Feel Calm Now",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "Great Job!",
+      "message": "You did it! You watched the glitter settle and practiced being patient. You can use this anytime you need to feel calm!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How the Calm Down Jar Works",
+        "description": "When you watch the glitter swirl and slowly settle, your brain gets busy watching instead of worrying. It's like a timer for your feelings - by the time the glitter settles, you'll feel much calmer!"
+      },
+      "tips": {
+        "title": "Tips for the Calm Down Jar",
+        "items": [
+          "Find a quiet spot where you can sit comfortably",
+          "Take slow, deep breaths while you watch",
+          "It's okay if your mind wanders - just come back to watching the jar",
+          "You can shake it as many times as you want!"
+        ]
+      }
+    }
+  },
+  "testAnxietyReset": {
+    "benefits": {
+      "focus": {
+        "title": "Get Focused",
+        "description": "Clear your mind and focus on what you know"
+      },
+      "calm": {
+        "title": "Feel Calm",
+        "description": "Reduce physical tension and racing thoughts"
+      },
+      "confidence": {
+        "title": "Build Confidence",
+        "description": "Remember you've prepared and you can do this"
+      }
+    },
+    "steps": {
+      "breathing": {
+        "title": "Step 1: Calm Your Body",
+        "subtitle": "Take 3 deep breaths to reset your nervous system",
+        "inhale": "Breathe in slowly...",
+        "exhale": "Breathe out slowly...",
+        "instruction": "Focus on your breath. This helps your body relax so your mind can think clearly.",
+        "breaths": "breaths"
+      },
+      "reframing": {
+        "title": "Step 2: Shift Your Thoughts",
+        "subtitle": "Replace anxious thoughts with helpful ones",
+        "instruction": "Click on thoughts that help you feel more confident. You can select multiple.",
+        "thoughts": {
+          "0": {
+            "anxious": "I'm going to fail",
+            "helpful": "I've studied and I'll do my best"
+          },
+          "1": {
+            "anxious": "Everyone else knows more",
+            "helpful": "I know what I know, and that's enough"
+          },
+          "2": {
+            "anxious": "I can't remember anything",
+            "helpful": "The information is in my brain, I just need to access it"
+          },
+          "3": {
+            "anxious": "This test determines everything",
+            "helpful": "This is one test, not my whole future"
+          }
+        }
+      },
+      "grounding": {
+        "title": "Step 3: Ground Yourself",
+        "subtitle": "Connect with the present moment",
+        "instruction": "Notice these things around you right now:",
+        "items": {
+          "0": "3 things you can see",
+          "1": "2 things you can feel",
+          "2": "1 thing you can hear"
+        }
+      }
+    },
+    "buttons": {
+      "begin": "Start Reset",
+      "back": "Back",
+      "next": "Next Step",
+      "finish": "I'm Ready",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "You're Ready!",
+      "message": "Great job! You've reset your mind and body. Take this calm, focused feeling with you into your test. You've got this!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Test Anxiety Reset Works",
+        "description": "Test anxiety happens when your body's stress response kicks in, making it hard to think clearly. This technique uses three steps: breathing to calm your body, thought reframing to shift your mindset, and grounding to bring you back to the present moment. Together, these help you access what you know instead of getting stuck in worry."
+      },
+      "tips": {
+        "title": "Tips for Test Anxiety",
+        "items": [
+          "Use this right before a test starts, or during a break if allowed",
+          "Practice this technique before test day so it feels natural",
+          "Remember: some anxiety is normal and can actually help you focus",
+          "If you feel overwhelmed during a test, take a moment to breathe"
+        ]
+      }
+    }
+  },
+  "socialAnxietyGrounding": {
+    "benefits": {
+      "present": {
+        "title": "Stay Present",
+        "description": "Focus on what's happening now, not worries"
+      },
+      "calm": {
+        "title": "Feel Calm",
+        "description": "Reduce physical anxiety symptoms"
+      },
+      "confident": {
+        "title": "Feel Confident",
+        "description": "Remember you can handle social situations"
+      }
+    },
+    "steps": {
+      "breathing": {
+        "title": "Step 1: Calm Your Body",
+        "subtitle": "Take 4 deep breaths to reset",
+        "inhale": "Breathe in slowly...",
+        "exhale": "Breathe out slowly...",
+        "instruction": "Focus on your breath. This helps calm your body's stress response.",
+        "breaths": "breaths"
+      },
+      "bodyAwareness": {
+        "title": "Step 2: Notice Your Body",
+        "subtitle": "Check in with how your body feels",
+        "instruction": "Notice these sensations in your body:",
+        "items": {
+          "0": "Your feet on the ground",
+          "1": "Your breath moving",
+          "2": "Your shoulders relaxing",
+          "3": "Your hands at your sides"
+        }
+      },
+      "subtleGrounding": {
+        "title": "Step 3: Subtle Grounding",
+        "subtitle": "Techniques you can use during conversations",
+        "instruction": "These are subtle techniques you can do without anyone noticing:",
+        "items": {
+          "0": {
+            "title": "5-4-3-2-1 (in your head)",
+            "description": "Notice 5 things you see, 4 you can touch, 3 you hear, 2 you smell, 1 you taste - all in your mind"
+          },
+          "1": {
+            "title": "Feel your feet",
+            "description": "Press your feet into the floor and notice the connection"
+          },
+          "2": {
+            "title": "Count your breath",
+            "description": "Count to 4 as you breathe in, 6 as you breathe out"
+          }
+        }
+      }
+    },
+    "buttons": {
+      "begin": "Start Grounding",
+      "back": "Back",
+      "next": "Next Step",
+      "finish": "I Feel Ready",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "You're Grounded!",
+      "message": "Great job! You've used grounding techniques to stay present and calm. You can use these subtle techniques anytime you're in a social situation and start to feel anxious."
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Social Anxiety Grounding Works",
+        "description": "Social anxiety often makes you feel disconnected from the present moment, focusing instead on worries about what others think or what might go wrong. Grounding techniques help you reconnect with your body and the present moment, which reduces anxiety and helps you engage more naturally in social situations."
+      },
+      "tips": {
+        "title": "Tips for Social Situations",
+        "items": [
+          "Practice these techniques before social events so they feel natural",
+          "You can do the subtle grounding techniques during conversations without anyone noticing",
+          "Remember: most people are focused on themselves, not judging you",
+          "It's okay to take breaks - step outside or go to the bathroom if you need a moment"
+        ]
+      }
+    }
+  },
+  "performanceAnxietyPrep": {
+    "benefits": {
+      "confident": {
+        "title": "Feel Confident",
+        "description": "Build confidence before you perform"
+      },
+      "focused": {
+        "title": "Get Focused",
+        "description": "Clear your mind and focus on your performance"
+      },
+      "ready": {
+        "title": "Get Ready",
+        "description": "Feel prepared and ready to do your best"
+      }
+    },
+    "steps": {
+      "breathing": {
+        "title": "Step 1: Calm Your Nerves",
+        "subtitle": "Take 4 deep breaths to center yourself",
+        "inhale": "Breathe in confidence...",
+        "exhale": "Breathe out tension...",
+        "instruction": "Focus on your breath. This helps calm your body so your mind can focus on your performance.",
+        "breaths": "breaths"
+      },
+      "visualization": {
+        "title": "Step 2: Visualize Success",
+        "subtitle": "Picture yourself performing well",
+        "instruction": "Complete these visualization steps:",
+        "steps": {
+          "0": {
+            "title": "See yourself succeeding",
+            "description": "Picture yourself doing well - see yourself confident and prepared"
+          },
+          "1": {
+            "title": "Feel the confidence",
+            "description": "Imagine how it feels to be calm and in control"
+          },
+          "2": {
+            "title": "Hear the positive outcome",
+            "description": "Think about what success sounds like - applause, positive feedback, or just feeling proud"
+          }
+        }
+      },
+      "powerPose": {
+        "title": "Step 3: Power Pose",
+        "subtitle": "Use your body to boost confidence",
+        "instruction": "Choose a power pose to do right before you perform:",
+        "poses": {
+          "0": {
+            "title": "Superhero Pose",
+            "description": "Stand tall, hands on hips, chest out - hold for 2 minutes"
+          },
+          "1": {
+            "title": "Victory Pose",
+            "description": "Arms raised in a V shape, head up - hold for 2 minutes"
+          }
+        }
+      }
+    },
+    "buttons": {
+      "begin": "Start Prep",
+      "back": "Back",
+      "next": "Next Step",
+      "finish": "I'm Ready to Perform",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "You're Ready!",
+      "message": "Perfect! You've prepared your mind and body. Take this confidence with you. You've got this - go show them what you can do!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Performance Anxiety Prep Works",
+        "description": "Performance anxiety happens when your body's stress response kicks in before you perform. This prep routine uses three evidence-based techniques: breathing to calm your body, visualization to build confidence, and power poses to boost your sense of capability. Together, these help you access your skills instead of getting stuck in worry."
+      },
+      "tips": {
+        "title": "Tips for Performance Anxiety",
+        "items": [
+          "Do this routine 5-10 minutes before you need to perform",
+          "Practice this before important performances so it feels natural",
+          "Remember: some nervous energy is normal and can actually help you perform better",
+          "If you make a mistake during your performance, take a breath and keep going"
+        ]
+      }
+    }
+  },
+  "interactiveArt": {
+    "benefits": {
+      "focus": {
+        "title": "Focus Your Mind",
+        "description": "Redirect anxious thoughts into creative expression"
+      },
+      "calm": {
+        "title": "Find Calm",
+        "description": "Art therapy helps reduce stress and anxiety"
+      },
+      "creative": {
+        "title": "Express Yourself",
+        "description": "Create something beautiful from anxious energy"
+      }
+    },
+    "session": {
+      "title": "Create Your Art",
+      "subtitle": "Draw freely and watch beautiful patterns emerge"
+    },
+    "controls": {
+      "colors": "Color Palette",
+      "symmetry": "Symmetry Mode",
+      "brushSize": "Brush Size"
+    },
+    "symmetry": {
+      "none": "None",
+      "mirror": "Mirror",
+      "radial4": "4-Way",
+      "radial8": "8-Way"
+    },
+    "buttons": {
+      "begin": "Start Creating",
+      "clear": "Clear Canvas",
+      "stop": "Stop",
+      "createAgain": "Create Again"
+    },
+    "completion": {
+      "title": "Beautiful Work!",
+      "message": "You've created something beautiful! Art therapy helps channel anxious energy into creative expression. You can use this tool anytime you need a calming, creative outlet."
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Interactive Art Therapy Works",
+        "description": "Art therapy is an evidence-based approach to managing anxiety. When you engage in creative activities like drawing, your brain shifts focus from anxious thoughts to the creative process. The symmetric patterns created by this tool provide a meditative, flowing experience that can help reduce stress and promote mindfulness."
+      },
+      "tips": {
+        "title": "Tips for Art Therapy",
+        "items": [
+          "There's no right or wrong way to create - just let your hand move freely",
+          "Try different symmetry modes to see what patterns emerge",
+          "Experiment with different colors and brush sizes",
+          "Focus on the process, not the outcome - the act of creating is what helps"
+        ]
+      }
+    }
+  },
+  "worryMonster": {
+    "benefits": {
+      "feelBetter": {
+        "title": "Feel Better",
+        "description": "Let go of worries and feel lighter"
+      },
+      "understand": {
+        "title": "Understand Worries",
+        "description": "Learn that worries are just thoughts"
+      },
+      "control": {
+        "title": "Take Control",
+        "description": "You're in charge, not your worries!"
+      }
+    },
+    "session": {
+      "title": "Meet the Worry Monster!",
+      "subtitle": "Write down your worries and feed them to the friendly monster"
+    },
+    "input": {
+      "label": "What are you worried about?",
+      "placeholder": "Type your worry here..."
+    },
+    "worries": {
+      "title": "Your Worries"
+    },
+    "monster": {
+      "hungry": "I'm hungry! Feed me your worries!",
+      "eating": "Yum! Thanks for the worry!",
+      "happy": "I'm full and happy! Your worries are safe with me!"
+    },
+    "buttons": {
+      "begin": "Meet the Monster",
+      "feed": "Feed to Monster",
+      "stop": "Stop",
+      "finish": "All Done!",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "Great Job!",
+      "message": "You did it! You fed all your worries to the Worry Monster. The monster is happy and full, and you don't have to carry those worries around anymore. Remember, worries are just thoughts - they can't hurt you!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How the Worry Monster Works",
+        "description": "The Worry Monster is a fun way to help kids understand that worries are just thoughts in their head, not scary things that will actually happen. By writing down worries and 'feeding' them to the monster, kids learn to externalize their anxious thoughts and see them as separate from themselves. This is a CBT technique that helps children feel more in control."
+      },
+      "tips": {
+        "title": "Tips for Using the Worry Monster",
+        "items": [
+          "You can write down any worry, big or small",
+          "It's okay to have lots of worries - the monster is always hungry!",
+          "After feeding worries to the monster, take a deep breath",
+          "Remember: worries are just thoughts, not facts"
+        ]
+      }
+    }
+  },
+  "magicBubbleBreathing": {
+    "benefits": {
+      "calm": {
+        "title": "Feel Calm",
+        "description": "Breathing helps your body relax"
+      },
+      "focus": {
+        "title": "Focus Your Mind",
+        "description": "Watch the bubble to stay present"
+      },
+      "fun": {
+        "title": "Fun & Magical",
+        "description": "Beautiful bubbles make breathing fun!"
+      }
+    },
+    "session": {
+      "title": "Blow Magic Bubbles!",
+      "subtitle": "Watch the bubble grow and shrink with your breath",
+      "breaths": "bubbles",
+      "breatheIn": "Breathe In",
+      "breatheOut": "Breathe Out",
+      "makeBigger": "Make the bubble bigger!",
+      "makeSmaller": "Let the bubble get smaller!"
+    },
+    "buttons": {
+      "begin": "Start Blowing Bubbles",
+      "stop": "Stop",
+      "tryAgain": "Blow More Bubbles"
+    },
+    "completion": {
+      "title": "Amazing!",
+      "message": "You did it! You blew beautiful magic bubbles with your breath. The bubble helped you breathe slowly and feel calm. Remember, you can always come back and blow more bubbles whenever you need to feel better!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Magic Bubble Breathing Works",
+        "description": "Magic Bubble Breathing uses a visual bubble that grows when you breathe in and shrinks when you breathe out. This visual aid helps children focus on their breathing pattern and practice slow, controlled breathing. The colorful, engaging bubble makes the exercise fun and helps kids stay engaged with the breathing practice."
+      },
+      "tips": {
+        "title": "Tips for Magic Bubble Breathing",
+        "items": [
+          "Watch the bubble carefully as it grows and shrinks",
+          "Try to match your breathing to the bubble's movement",
+          "Take your time - there's no rush!",
+          "If you feel dizzy, slow down and take a break"
+        ]
+      }
+    }
+  },
+  "teensBodyScan": {
+    "benefits": {
+      "awareness": {
+        "title": "Body Awareness",
+        "description": "Notice tension and sensations"
+      },
+      "relax": {
+        "title": "Release Tension",
+        "description": "Let go of physical stress"
+      },
+      "present": {
+        "title": "Stay Present",
+        "description": "Focus on the here and now"
+      }
+    },
+    "session": {
+      "title": "Body Scan Exercise",
+      "subtitle": "Notice each part of your body with gentle awareness",
+      "progress": "Progress",
+      "focus": "Focus on your {area}",
+      "notice": "Notice any sensations...",
+      "hold": "seconds"
+    },
+    "areas": {
+      "feet": {
+        "name": "Feet",
+        "instruction": "Notice your feet. How do they feel? Are they warm or cool? Any tension?"
+      },
+      "legs": {
+        "name": "Legs",
+        "instruction": "Bring your attention to your legs. Notice any sensations, tightness, or relaxation."
+      },
+      "hips": {
+        "name": "Hips",
+        "instruction": "Focus on your hips and lower back. Notice how they feel right now."
+      },
+      "stomach": {
+        "name": "Stomach",
+        "instruction": "Pay attention to your stomach area. Notice any tension or butterflies."
+      },
+      "chest": {
+        "name": "Chest",
+        "instruction": "Focus on your chest. Notice your breathing and how your chest moves."
+      },
+      "hands": {
+        "name": "Hands",
+        "instruction": "Bring awareness to your hands. Notice if they're tense or relaxed."
+      },
+      "arms": {
+        "name": "Arms",
+        "instruction": "Focus on your arms. Notice any tightness or ease in your shoulders and arms."
+      },
+      "shoulders": {
+        "name": "Shoulders",
+        "instruction": "Pay attention to your shoulders. Many people hold tension here - can you release it?"
+      },
+      "neck": {
+        "name": "Neck",
+        "instruction": "Focus on your neck. Notice any tightness or stiffness."
+      },
+      "face": {
+        "name": "Face",
+        "instruction": "Bring awareness to your face. Notice your jaw, forehead, and facial muscles."
+      },
+      "head": {
+        "name": "Head",
+        "instruction": "Finally, focus on your head. Notice any pressure, tension, or ease."
+      }
+    },
+    "buttons": {
+      "begin": "Start Body Scan",
+      "next": "Next Area",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "Well Done!",
+      "message": "You've completed a full body scan! You've taken time to notice how your body feels and become more aware of tension and sensations. This awareness can help you release stress and feel more relaxed. Practice this regularly to build body awareness and reduce physical tension."
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Body Scan Works",
+        "description": "Body scan is a mindfulness technique that helps you develop awareness of physical sensations throughout your body. By systematically focusing on different body parts, you learn to notice tension, discomfort, or relaxation without judgment. This practice helps you become more attuned to your body's signals and can help you release physical stress and anxiety."
+      },
+      "tips": {
+        "title": "Tips for Body Scan",
+        "items": [
+          "There's no right or wrong way to feel - just notice what's there",
+          "If your mind wanders, gently bring it back to the body part you're focusing on",
+          "Don't try to change anything, just observe",
+          "Practice regularly to build body awareness over time"
+        ]
+      }
+    }
+  },
+  "futureWorryTime": {
+    "benefits": {
+      "control": {
+        "title": "Take Control",
+        "description": "Decide when to worry"
+      },
+      "schedule": {
+        "title": "Schedule Worries",
+        "description": "Contain worries to specific times"
+      },
+      "peace": {
+        "title": "Find Peace",
+        "description": "Worry less throughout the day"
+      }
+    },
+    "session": {
+      "title": "Scheduled Worry Time",
+      "subtitle": "Set aside time to worry, so worries don't take over your day",
+      "timeRemaining": "Time Remaining",
+      "yourWorries": "Your Worries",
+      "addWorry": "What are you worried about?",
+      "worryPlaceholder": "Type your worry here...",
+      "planActions": "Plan Actions",
+      "actionPlaceholder": "What can you do about this? (optional)",
+      "phaseWorry": "Worry Phase",
+      "phaseWorryDesc": "Write down all your worries. Don't hold back - get them all out!",
+      "phaseAction": "Action Planning Phase",
+      "phaseActionDesc": "For each worry, think about what you can actually do about it.",
+      "phaseClosure": "Closure Phase",
+      "phaseClosureDesc": "Take a moment to acknowledge you've addressed your worries. Now you can let them go until your next worry time."
+    },
+    "buttons": {
+      "begin": "Start Worry Time",
+      "start": "Start Timer",
+      "pause": "Pause",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "completion": {
+      "title": "Great Job!",
+      "message": "You've completed your scheduled worry time! You've taken time to acknowledge your worries and think about what you can do about them. Remember, when worries come up during the day, you can tell yourself 'I'll think about that during my worry time' and then let it go. This helps you take control of your worrying."
+    },
+    "education": {
+      "howItWorks": {
+        "title": "How Future Worry Time Works",
+        "description": "Future Worry Time is a CBT technique called 'worry postponement' or 'scheduled worry time.' Instead of trying to stop worrying entirely, you schedule a specific time each day to worry. When worries come up during the day, you write them down or mentally note them, then tell yourself you'll think about them during your scheduled worry time. This helps contain worries to a specific period and gives you more control over when and how you worry."
+      },
+      "tips": {
+        "title": "Tips for Future Worry Time",
+        "items": [
+          "Choose the same time each day for your worry time",
+          "When worries come up, write them down or note them mentally",
+          "During worry time, really engage with your worries - don't rush",
+          "After worry time, consciously let go of worries until the next session"
+        ]
+      }
+    }
+  },
+  "ocdThoughtLabeling": {
+    "buttons": {
+      "begin": "Start Labeling",
+      "labelThought": "Label This Thought",
+      "save": "Save Thought",
+      "cancel": "Cancel",
+      "finish": "Finish",
+      "reset": "Reset",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "enterThought": "Enter an intrusive thought or obsession:",
+      "thoughtPlaceholder": "What thought is bothering you?",
+      "selectLabels": "Select labels that describe this thought:",
+      "labeledThoughts": "Your Labeled Thoughts"
+    },
+    "labels": {
+      "obsession": {
+        "name": "Obsession",
+        "description": "A persistent, unwanted thought"
+      },
+      "intrusive": {
+        "name": "Intrusive Thought",
+        "description": "An unwanted thought that pops into your mind"
+      },
+      "thoughtActionFusion": {
+        "name": "Thought-Action Fusion",
+        "description": "Believing a thought means it will happen"
+      },
+      "compulsionUrge": {
+        "name": "Compulsion Urge",
+        "description": "Feeling you must do something to reduce anxiety"
+      },
+      "uncertainty": {
+        "name": "Uncertainty",
+        "description": "Difficulty tolerating not knowing"
+      },
+      "perfectionism": {
+        "name": "Perfectionism",
+        "description": "Need for things to be exactly right"
+      },
+      "contamination": {
+        "name": "Contamination Fear",
+        "description": "Fear of germs, dirt, or illness"
+      },
+      "harm": {
+        "name": "Harm Fear",
+        "description": "Fear of causing harm to self or others"
+      },
+      "symmetry": {
+        "name": "Symmetry/Order",
+        "description": "Need for things to be arranged perfectly"
+      }
+    },
+    "completion": {
+      "title": "Well Done!",
+      "message": "You've practiced labeling your thoughts! Remember, thoughts are just thoughts - they're not facts. By labeling them, you create distance and reduce their power. Keep practicing this skill to help manage OCD symptoms."
+    }
+  },
+  "compulsionDelay": {
+    "buttons": {
+      "begin": "Start Timer",
+      "start": "Start",
+      "pause": "Pause",
+      "completed": "Completed Delay",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "title": "Compulsion Delay Timer",
+      "instruction": "Wait before acting on the compulsion. You can do this!",
+      "delayCount": "Successful Delays",
+      "nextDelay": "Next Delay Time"
+    },
+    "completion": {
+      "title": "Great Progress!",
+      "message": "You've successfully delayed your compulsion! Each delay builds your ability to resist compulsions. Keep practicing to gradually increase your delay times."
+    }
+  },
+  "uncertaintyTolerance": {
+    "buttons": {
+      "begin": "Start Exercise",
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "title": "Uncertainty Tolerance Practice",
+      "progress": "Progress",
+      "breatheWithUncertainty": "Breathe and sit with uncertainty",
+      "reflectionPlaceholder": "What does uncertainty feel like? What thoughts come up?"
+    },
+    "exercises": {
+      "breathing": {
+        "title": "Breathing with Uncertainty",
+        "description": "Take slow, deep breaths while acknowledging that some things are uncertain. You don't need to know everything."
+      },
+      "reflection": {
+        "title": "Reflect on Uncertainty",
+        "description": "Think about a situation where you feel uncertain. Notice your thoughts and feelings without trying to resolve them."
+      },
+      "acceptance": {
+        "title": "Accept Uncertainty",
+        "description": "Practice accepting that uncertainty is a normal part of life. You can be okay even when you don't know."
+      }
+    },
+    "completion": {
+      "title": "Well Done!",
+      "message": "You've practiced tolerating uncertainty! This is a key skill for managing OCD. Remember, you don't need certainty to be okay."
+    }
+  },
+  "ocdMindfulness": {
+    "buttons": {
+      "begin": "Start Practice",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "title": "Mindfulness for Intrusive Thoughts",
+      "timeElapsed": "Time"
+    },
+    "steps": {
+      "observe": {
+        "text": "Observe the thought",
+        "desc": "Notice the intrusive thought without judgment. It's just a thought."
+      },
+      "observeDesc": "Watch the thought like a cloud passing in the sky. You don't need to engage with it.",
+      "accept": {
+        "text": "Accept its presence",
+        "desc": "Allow the thought to be there without trying to make it go away."
+      },
+      "acceptDesc": "The thought can exist without you needing to act on it or make it disappear.",
+      "letGo": {
+        "text": "Let it pass",
+        "desc": "Let the thought come and go naturally, without holding onto it."
+      },
+      "letGoDesc": "Thoughts are temporary. They will pass on their own if you don't engage with them."
+    },
+    "completion": {
+      "title": "Well Done!",
+      "message": "You've practiced mindfulness with intrusive thoughts! This helps you develop a different relationship with your thoughts - observing them without getting caught up in them."
+    }
+  },
+  "nauseaManagement": {
+    "buttons": {
+      "begin": "Start Exercise",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "title": "Nausea Management",
+      "breatheIn": "Breathe In",
+      "breatheOut": "Breathe Out",
+      "grounding": "Focus on your surroundings. Notice what you can see, hear, and touch."
+    },
+    "instructions": {
+      "breathe": "Take slow, deep breaths. Focus on your breathing to help calm your body.",
+      "ground": "Ground yourself in the present moment. Notice your environment.",
+      "distinguish": "Remember: anxiety can cause nausea-like sensations. This may be anxiety, not actual nausea."
+    },
+    "completion": {
+      "title": "Well Done!",
+      "message": "You've practiced managing nausea sensations! These techniques can help you distinguish between anxiety-induced sensations and actual physical nausea."
+    }
+  },
+  "sensationLabeling": {
+    "buttons": {
+      "begin": "Start Exercise",
+      "save": "Save",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "title": "Body Sensation Labeling",
+      "whatDoYouFeel": "What physical sensation are you experiencing?",
+      "sensationPlaceholder": "Describe the sensation in detail...",
+      "labelIt": "What type of sensation is this?",
+      "labeledSensations": "Your Labeled Sensations"
+    },
+    "labels": {
+      "anxiety": {
+        "name": "Anxiety-Induced",
+        "description": "This sensation is likely caused by anxiety",
+        "insight": "Anxiety can create physical sensations that feel like nausea. This is your body's stress response, not actual illness."
+      },
+      "actual": {
+        "name": "Actual Physical Sensation",
+        "description": "This may be a real physical sensation",
+        "insight": "If this is a real physical sensation, it's okay to acknowledge it. Most sensations pass on their own."
+      },
+      "uncertain": {
+        "name": "Uncertain",
+        "description": "I'm not sure what this is",
+        "insight": "It's okay to be uncertain. You don't need to know exactly what every sensation is. Most sensations are harmless."
+      }
+    },
+    "completion": {
+      "title": "Well Done!",
+      "message": "You've practiced labeling body sensations! This helps you distinguish between anxiety-induced sensations and actual physical symptoms, reducing fear around physical sensations."
+    }
+  },
+  "safeFoodsVisualization": {
+    "buttons": {
+      "begin": "Start Visualization",
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish",
+      "stop": "Stop",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "title": "Safe Foods Visualization",
+      "progress": "Progress"
+    },
+    "steps": {
+      "prepare": {
+        "guidance": "Prepare for Visualization",
+        "description": "Find a comfortable position. Close your eyes and take a few deep breaths. Imagine yourself in a calm, safe place."
+      },
+      "visualize": {
+        "guidance": "Visualize Eating Safely",
+        "description": "Picture yourself eating a food that feels safe to you. See yourself enjoying it, feeling comfortable and confident. Notice how you feel calm and at ease."
+      },
+      "confidence": {
+        "guidance": "Build Confidence",
+        "description": "Imagine carrying this feeling of safety and confidence with you. You can feel this way when eating. You are safe."
+      }
+    },
+    "completion": {
+      "title": "Well Done!",
+      "message": "You've completed the safe foods visualization! This practice helps build confidence around eating. Remember, you can return to this visualization whenever you need to feel more confident about food."
+    }
+  },
+  "copingCards": {
+    "buttons": {
+      "begin": "View My Cards",
+      "createNew": "Create New Card",
+      "save": "Save Card",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "tryAgain": "Try Again"
+    },
+    "session": {
+      "title": "Coping Cards",
+      "cardTitle": "Card Title",
+      "titlePlaceholder": "e.g., When I feel anxious...",
+      "cardContent": "Coping Strategy",
+      "contentPlaceholder": "Write your coping strategy, affirmation, or reminder here...",
+      "noCards": "You haven't created any coping cards yet. Create your first one!"
+    },
+    "completion": {
+      "title": "Great!",
+      "message": "Your coping cards are saved! You can return to view them anytime you need support. These cards are stored locally in your browser."
+    }
   }
 }

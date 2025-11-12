@@ -31,6 +31,7 @@ export default withNuxt(
             '/about.tips.items.*/',
             '/resources.professional.signs.*/',
             '/resources.organizations.list.*/',
+            '/resources.helpfulTools.list.*/',
             '/techniques.*/',
 
           ],

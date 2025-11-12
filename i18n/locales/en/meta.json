@@ -44,6 +44,82 @@
       "title": "Interactive Stress Ball - Drag & Throw for Anxiety Relief",
       "description": "Interactive virtual stress ball game. Drag, throw, and bounce for immediate stress relief and anxiety management. Free therapeutic tool."
     },
+    "superheroBreathing": {
+      "title": "Superhero Breathing - Kid-Friendly Anxiety Exercise",
+      "description": "Fun, kid-friendly breathing exercise with superhero theme. Help children calm down and manage anxiety with engaging breathing techniques designed for kids."
+    },
+    "scavengerHuntGrounding": {
+      "title": "5 Senses Scavenger Hunt - Kid-Friendly Grounding Game",
+      "description": "Fun interactive scavenger hunt game for kids using all 5 senses. Help children ground themselves and manage anxiety through playful exploration."
+    },
+    "calmDownJar": {
+      "title": "Calm Down Jar - Visual Meditation Timer for Kids",
+      "description": "Interactive calm down jar with animated glitter for children. Watch the glitter settle to practice patience and find calm. Kid-friendly anxiety management tool."
+    },
+    "worryMonster": {
+      "title": "Worry Monster - CBT Tool for Kids to Externalize Anxious Thoughts",
+      "description": "Interactive Worry Monster tool for children. Write down worries and feed them to a friendly monster. Helps kids externalize anxious thoughts using CBT techniques. Kid-friendly anxiety management."
+    },
+    "magicBubbleBreathing": {
+      "title": "Magic Bubble Breathing - Interactive Visual Breathing Exercise for Kids",
+      "description": "Interactive bubble breathing visualization for children. Watch a colorful bubble grow and shrink with your breath. Visual breathing aid that makes breathing exercises fun and engaging for kids. Kid-friendly anxiety management tool."
+    },
+    "teensBodyScan": {
+      "title": "Body Scan for Teens - Mindfulness Body Awareness Exercise",
+      "description": "Gentle body scan exercise for teenagers. Systematic body awareness practice to notice tension and release physical stress. Mindfulness technique adapted for adolescent anxiety. Teen-friendly anxiety management tool."
+    },
+    "futureWorryTime": {
+      "title": "Future Worry Time - Scheduled Worry Time CBT Technique for Teens",
+      "description": "Scheduled worry time exercise for teenagers. CBT worry postponement technique to contain worries to specific time periods. Helps teens take control of when and how they worry. Teen-friendly anxiety management tool."
+    },
+    "ocdThoughtLabeling": {
+      "title": "OCD Thought Labeling - Recognize Obsessions vs. Reality",
+      "description": "OCD-specific thought labeling exercise. Learn to identify and label intrusive thoughts and obsessions. CBT technique to recognize thoughts are not facts. Helps reduce thought-action fusion in OCD."
+    },
+    "compulsionDelay": {
+      "title": "Compulsion Delay Timer - ERP Technique for OCD",
+      "description": "Timer-based compulsion delay exercise for OCD. Gradually delay compulsive behaviors using increasing intervals. Exposure Response Prevention (ERP) technique to build tolerance for anxiety and resist compulsions."
+    },
+    "uncertaintyTolerance": {
+      "title": "Uncertainty Tolerance Exercises - Build Comfort with Not Knowing",
+      "description": "Guided exercises to build tolerance for uncertainty. Core component of OCD treatment. Practice sitting with uncertainty and accepting that you don't need to know everything. Helps reduce OCD symptoms."
+    },
+    "ocdMindfulness": {
+      "title": "Mindfulness for Intrusive Thoughts - ACT-Based OCD Practice",
+      "description": "Mindfulness meditation adapted for OCD. Learn to observe intrusive thoughts without engaging with them. ACT-based approach to develop a different relationship with thoughts. Helps manage OCD symptoms."
+    },
+    "nauseaManagement": {
+      "title": "Nausea Management - Breathing and Grounding for Emetophobia",
+      "description": "Breathing and grounding techniques for nausea sensations. Helps distinguish between anxiety-induced nausea and actual physical nausea. CBT techniques for somatic anxiety in emetophobia."
+    },
+    "sensationLabeling": {
+      "title": "Body Sensation Labeling - Distinguish Anxiety from Nausea",
+      "description": "Cognitive technique to identify and label body sensations. Helps distinguish between anxiety-induced physical symptoms and actual nausea. Interoceptive exposure for emetophobia. Reduces fear around physical sensations."
+    },
+    "safeFoodsVisualization": {
+      "title": "Safe Foods Visualization - Build Confidence Around Eating",
+      "description": "Guided visualization exercise for emetophobia. Build confidence around eating and food through guided imagery. Visualization techniques for phobia treatment. Helps reduce anxiety around food and eating situations."
+    },
+    "copingCards": {
+      "title": "Coping Cards - Personalized Coping Strategies",
+      "description": "Create and use personalized coping cards with strategies, affirmations, and reminders. Works for all anxiety conditions. Store coping strategies for difficult moments. Access your cards anytime you need support."
+    },
+    "testAnxietyReset": {
+      "title": "Test Anxiety Reset - Quick Calm Technique for Exams",
+      "description": "Quick 2-3 minute technique to calm test anxiety before or during exams. Breathing, thought reframing, and grounding for students. Teen-friendly test anxiety management."
+    },
+    "socialAnxietyGrounding": {
+      "title": "Social Anxiety Grounding - Calm Technique for Social Situations",
+      "description": "Quick grounding technique for social anxiety. Helpful for parties, presentations, and group settings. Subtle techniques you can use discreetly. Teen-friendly social anxiety management."
+    },
+    "performanceAnxietyPrep": {
+      "title": "Performance Anxiety Prep - Pre-Performance Routine for Teens",
+      "description": "Quick pre-performance routine for presentations, performances, and public speaking. Breathing, visualization, and power poses to boost confidence. Teen-friendly performance anxiety management."
+    },
+    "interactiveArt": {
+      "title": "Interactive Art Therapy - Creative Drawing Tool for Anxiety",
+      "description": "Interactive art therapy tool with symmetric pattern drawing. Create beautiful flowing patterns to reduce anxiety and stress. Evidence-based creative expression for anxiety management."
+    },
     "privacy": {
       "title": "Privacy Policy - Anxiety Aid Tools",
       "description": "Privacy policy for Anxiety Aid Tools. Learn how we protect your data with minimal analytics and local-only storage."

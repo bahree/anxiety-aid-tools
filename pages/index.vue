@@ -16,7 +16,12 @@
     <!-- All Techniques Section -->
     <section id="techniques" class="">
       <div class="mx-auto max-w-6xl">
-        <TechniquesGrid :techniques="allTechniques" />
+        <TechniqueFilter 
+          :active-filter="activeFilter" 
+          :filter-categories="filterCategories"
+          @filter-change="handleFilterChange"
+        />
+        <TechniquesGrid :techniques="filteredTechniques" />
       </div>
     </section>
 
@@ -118,6 +123,27 @@
             </ul>
           </div>
         </div>
+
+        <!-- Helpful Tools Section -->
+        <div class="mt-6 border border-purple-200 dark:border-purple-600 bg-white/80 dark:bg-slate-800/80 p-4 transition-colors duration-200">
+          <div class="flex items-center justify-start gap-2 mb-2">
+            <Icon name="ph:toolbox-fill" class="flex-shrink-0 text-lg text-purple-600 dark:text-purple-400" />
+            <h3 class="font-semibold text-gray-800 dark:text-slate-100">{{ $t("resources.helpfulTools.title") }}</h3>
+          </div>
+          <p class="mb-3 text-sm text-gray-700 dark:text-slate-300">
+            {{ $t("resources.helpfulTools.description") }}
+          </p>
+          <ul class="space-y-2 text-sm text-gray-700 dark:text-slate-300">
+            <li v-for="tool in $tm('resources.helpfulTools.list')" :key="tool.name">
+              <div>
+                <a :href="$rt(tool.url)" target="_blank" rel="noopener noreferrer nofollow" class="font-medium text-purple-600 dark:text-purple-400 hover:text-purple-700 dark:hover:text-purple-300 transition-colors duration-200">
+                  {{ $rt(tool.name) }}
+                </a>
+                <p class="text-gray-600 dark:text-slate-400 mt-1">{{ $rt(tool.description) }}</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
     </main>
@@ -125,8 +151,24 @@
 </template>
 
 <script setup>
-const { allTechniques } = useTechniques();
+const { allTechniques, filterTechniques, getFilterCategories } = useTechniques();
 const { t, tm, rt } = useI18n();
+
+// Filter state
+const activeFilter = ref('all')
+const filterCategories = computed(() => getFilterCategories())
+const filteredTechniques = computed(() => filterTechniques(activeFilter.value))
+
+const handleFilterChange = (filter) => {
+  activeFilter.value = filter
+  // Scroll to techniques section when filter changes
+  nextTick(() => {
+    const section = document.getElementById('techniques')
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  })
+}
 
 useSeoMeta({
   title: () => t("meta.home.title"),

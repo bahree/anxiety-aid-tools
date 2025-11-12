@@ -13,6 +13,7 @@ const BASE_LOCALE = "en";
 // Paths that are locale-specific and should not be checked for synchronization
 const SKIP_PATHS = [
   "resources.organizations.list", // Each locale has its own mental health organizations
+  "resources.helpfulTools.list", // Helpful tools and visual aids
 ];
 
 function shouldSkipPath(path) {

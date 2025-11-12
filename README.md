@@ -50,15 +50,16 @@ A collection of anxiety management techniques built around four core principles.
 
 <div align="center">
 
-| 🫁 **Breathing** | ⚓ **Grounding** | 🧘 **Visualization** | 💭 **Mindfulness** |
-|:---:|:---:|:---:|:---:|
-| Guided breathing patterns | 5-4-3-2-1 sensory technique | Peaceful place imagery | Thought labeling |
-| 2-3 minutes | 3-5 minutes | 5-10 minutes | 5-10 minutes |
+| 🫁 **Breathing** | ⚓ **Grounding** | 🧘 **Visualization** | 💭 **Mindfulness** | 👶 **For Kids** | 🧑 **For Teens** | 🏷️ **OCD** | 🤢 **Emetophobia** |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Guided breathing patterns | 5-4-3-2-1 sensory technique | Peaceful place imagery | Thought labeling | Age-appropriate tools | Teen-specific techniques | OCD support tools | Emetophobia support |
+| 2-3 minutes | 3-5 minutes | 5-10 minutes | 5-10 minutes | 2-5 minutes | 2-15 minutes | 5-30 minutes | 3-10 minutes |
 
 </div>
 
 ### 🌟 **Featured Techniques**
 
+#### General Anxiety Management
 - **🫁 Breathing Exercises** - Interactive animations guide your breath rhythm
 - **⚓ 5-4-3-2-1 Grounding** - Sensory awareness to anchor you in the present
 - **🎯 Guided Breathing** - Customizable breath patterns with visual cues
@@ -69,6 +70,35 @@ A collection of anxiety management techniques built around four core principles.
 - **🌀 Online Fidget Spinner** - Minimal virtual spinner with realistic momentum for restless energy
 - **🎵 Sound Therapy** - Calming ambient soundscapes
 - **⚾ Virtual Stress Ball** - Tactile relief through digital interaction
+- **🎨 Interactive Art** - Creative drawing with symmetry and flowing patterns
+
+#### For Kids
+- **🦸 Superhero Breathing** - Kid-friendly breathing with superhero theme
+- **🔍 5 Senses Scavenger Hunt** - Fun grounding game using all 5 senses
+- **🫙 Calm Down Jar** - Visual meditation timer with animated glitter
+- **👾 Worry Monster** - Externalize worries by "feeding" them to a friendly monster
+- **🫧 Magic Bubble Breathing** - Interactive bubble visualization for breathing
+
+#### For Teens
+- **📝 Test Anxiety Reset** - Quick calm technique for exams and tests
+- **👥 Social Anxiety Grounding** - Grounding adapted for social situations
+- **🧘 Body Scan for Teens** - Mindfulness body awareness exercise
+- **⏰ Future Worry Time** - Scheduled worry time (CBT technique)
+- **🎤 Performance Anxiety Prep** - Pre-performance routine for presentations
+
+#### For OCD
+- **🏷️ OCD Thought Labeling** - Recognize obsessions vs. reality
+- **⏱️ Compulsion Delay Timer** - Gradually delay compulsive behaviors (ERP)
+- **❓ Uncertainty Tolerance Exercises** - Build comfort with uncertainty
+- **🧘 Mindfulness for Intrusive Thoughts** - Observe thoughts without engaging (ACT)
+
+#### For Emetophobia
+- **🤢 Nausea Management** - Breathing and grounding for nausea sensations
+- **🎯 Body Sensation Labeling** - Distinguish anxiety from actual nausea
+- **🍎 Safe Foods Visualization** - Build confidence around eating
+
+#### Universal Tools
+- **🃏 Coping Cards** - Create personalized cards with coping strategies
 
 ---
 
