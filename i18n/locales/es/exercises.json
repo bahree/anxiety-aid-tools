@@ -1427,5 +1427,56 @@
         "description": "Las sesiones diarias de 10-20 minutos proporcionan el mayor beneficio para la reducción de la ansiedad."
       }
     }
+  },
+  "magicBubbleBreathing": {
+    "benefits": {
+      "calm": {
+        "title": "Siente Calma",
+        "description": "La respiración ayuda a tu cuerpo a relajarse"
+      },
+      "focus": {
+        "title": "Enfoca Tu Mente",
+        "description": "Observa la burbuja para mantenerte presente"
+      },
+      "fun": {
+        "title": "Divertido y Mágico",
+        "description": "¡Las burbujas hermosas hacen que respirar sea divertido!"
+      }
+    },
+    "session": {
+      "title": "¡Sopla Burbujas Mágicas!",
+      "subtitle": "Observa la burbuja crecer y encogerse con tu respiración",
+      "breaths": "burbujas",
+      "breatheIn": "Respira Adentro",
+      "breatheOut": "Respira Afuera",
+      "makeBigger": "¡Haz la burbuja más grande!",
+      "makeSmaller": "¡Deja que la burbuja se haga más pequeña!",
+      "bubblesCollected": "Burbujas Recolectadas",
+      "clickToPop": "¡Haz clic en la burbuja cuando esté grande para reventarla y recolectar burbujas!"
+    },
+    "buttons": {
+      "begin": "Comenzar a Soplar Burbujas",
+      "stop": "Detener",
+      "tryAgain": "Soplar Más Burbujas"
+    },
+    "completion": {
+      "title": "¡Increíble!",
+      "message": "¡Lo hiciste! Soplaste hermosas burbujas mágicas con tu respiración. La burbuja te ayudó a respirar lentamente y sentirte tranquilo. Recuerda, siempre puedes volver y soplar más burbujas cuando necesites sentirte mejor."
+    },
+    "education": {
+      "howItWorks": {
+        "title": "Cómo Funciona la Respiración de Burbujas Mágicas",
+        "description": "La Respiración de Burbujas Mágicas usa una burbuja visual que crece cuando inhalas y se encoge cuando exhalas. Esta ayuda visual ayuda a los niños a enfocarse en su patrón de respiración y practicar respiración lenta y controlada. La burbuja colorida y atractiva hace que el ejercicio sea divertido y ayuda a los niños a mantenerse comprometidos con la práctica de respiración."
+      },
+      "tips": {
+        "title": "Consejos para la Respiración de Burbujas Mágicas",
+        "items": [
+          "Observa la burbuja cuidadosamente mientras crece y se encoge",
+          "Intenta hacer coincidir tu respiración con el movimiento de la burbuja",
+          "Tómate tu tiempo - ¡no hay prisa!",
+          "Si te sientes mareado, reduce la velocidad y toma un descanso"
+        ]
+      }
+    }
   }
 }

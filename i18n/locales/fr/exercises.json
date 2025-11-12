@@ -1427,5 +1427,56 @@
         "description": "Des séances quotidiennes de 10 à 20 minutes offrent le plus de bénéfices pour la réduction de l'anxiété."
       }
     }
+  },
+  "magicBubbleBreathing": {
+    "benefits": {
+      "calm": {
+        "title": "Ressentez le Calme",
+        "description": "La respiration aide votre corps à se détendre"
+      },
+      "focus": {
+        "title": "Concentrez Votre Esprit",
+        "description": "Regardez la bulle pour rester présent"
+      },
+      "fun": {
+        "title": "Amusant et Magique",
+        "description": "De belles bulles rendent la respiration amusante !"
+      }
+    },
+    "session": {
+      "title": "Soufflez des Bulles Magiques !",
+      "subtitle": "Regardez la bulle grandir et rétrécir avec votre respiration",
+      "breaths": "bulles",
+      "breatheIn": "Inspirez",
+      "breatheOut": "Expirez",
+      "makeBigger": "Agrandissez la bulle !",
+      "makeSmaller": "Laissez la bulle rétrécir !",
+      "bubblesCollected": "Bulles Collectées",
+      "clickToPop": "Cliquez sur la bulle quand elle est grande pour l'éclater et collecter des bulles !"
+    },
+    "buttons": {
+      "begin": "Commencer à Souffler des Bulles",
+      "stop": "Arrêter",
+      "tryAgain": "Souffler Plus de Bulles"
+    },
+    "completion": {
+      "title": "Incroyable !",
+      "message": "Vous l'avez fait ! Vous avez soufflé de belles bulles magiques avec votre respiration. La bulle vous a aidé à respirer lentement et à vous sentir calme. N'oubliez pas, vous pouvez toujours revenir et souffler plus de bulles quand vous avez besoin de vous sentir mieux !"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "Comment Fonctionne la Respiration de Bulles Magiques",
+        "description": "La Respiration de Bulles Magiques utilise une bulle visuelle qui grandit quand vous inspirez et rétrécit quand vous expirez. Cette aide visuelle aide les enfants à se concentrer sur leur schéma respiratoire et à pratiquer une respiration lente et contrôlée. La bulle colorée et engageante rend l'exercice amusant et aide les enfants à rester engagés dans la pratique de la respiration."
+      },
+      "tips": {
+        "title": "Conseils pour la Respiration de Bulles Magiques",
+        "items": [
+          "Regardez attentivement la bulle pendant qu'elle grandit et rétrécit",
+          "Essayez de faire correspondre votre respiration au mouvement de la bulle",
+          "Prenez votre temps - il n'y a pas de précipitation !",
+          "Si vous vous sentez étourdi, ralentissez et faites une pause"
+        ]
+      }
+    }
   }
 }

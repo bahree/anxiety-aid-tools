@@ -59,6 +59,12 @@
       "short_description": "Bola de estresse interativa para aliviar a tensão e redirecionar a energia ansiosa por meio do envolvimento tátil",
       "description": "Às vezes, a tensão física precisa de uma liberação física. Esta bola de estresse virtual oferece uma experiência tátil satisfatória que ajuda a canalizar a energia nervosa e a ansiedade em movimentos de aperto intencionais. A ação repetitiva ajuda a acalmar sua mente enquanto dá ao seu corpo uma maneira de liberar o estresse e a tensão acumulados.",
       "duration": "1-5 min"
+    },
+    "magicBubbleBreathing": {
+      "name": "Respiração de Bolhas Mágicas",
+      "short_description": "Observe uma bela bolha crescer e encolher enquanto respira",
+      "description": "Sopre uma bolha mágica com sua respiração! Observe a bolha crescer quando você inspira e encolher quando você expira. A bolha colorida e brilhante ajuda você a se concentrar em sua respiração e se sentir calmo. É como soprar bolhas reais, mas ainda mais mágico!",
+      "duration": "2-3 min"
     }
   }
 }

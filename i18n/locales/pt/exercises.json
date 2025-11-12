@@ -1427,5 +1427,56 @@
         "description": "Sessões diárias de 10 a 20 minutos oferecem o maior benefício na redução da ansiedade."
       }
     }
+  },
+  "magicBubbleBreathing": {
+    "benefits": {
+      "calm": {
+        "title": "Sinta Calma",
+        "description": "A respiração ajuda seu corpo a relaxar"
+      },
+      "focus": {
+        "title": "Foque Sua Mente",
+        "description": "Observe a bolha para permanecer presente"
+      },
+      "fun": {
+        "title": "Divertido e Mágico",
+        "description": "Bolhas bonitas tornam a respiração divertida!"
+      }
+    },
+    "session": {
+      "title": "Sopre Bolhas Mágicas!",
+      "subtitle": "Observe a bolha crescer e encolher com sua respiração",
+      "breaths": "bolhas",
+      "breatheIn": "Inspire",
+      "breatheOut": "Expire",
+      "makeBigger": "Faça a bolha crescer!",
+      "makeSmaller": "Deixe a bolha encolher!",
+      "bubblesCollected": "Bolhas Coletadas",
+      "clickToPop": "Clique na bolha quando ela estiver grande para estourá-la e coletar bolhas!"
+    },
+    "buttons": {
+      "begin": "Começar a Soprar Bolhas",
+      "stop": "Parar",
+      "tryAgain": "Soprar Mais Bolhas"
+    },
+    "completion": {
+      "title": "Incrível!",
+      "message": "Você conseguiu! Você soprou lindas bolhas mágicas com sua respiração. A bolha ajudou você a respirar lentamente e se sentir calmo. Lembre-se, você sempre pode voltar e soprar mais bolhas sempre que precisar se sentir melhor!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "Como Funciona a Respiração de Bolhas Mágicas",
+        "description": "A Respiração de Bolhas Mágicas usa uma bolha visual que cresce quando você inspira e encolhe quando você expira. Esta ajuda visual ajuda as crianças a se concentrarem em seu padrão de respiração e praticarem respiração lenta e controlada. A bolha colorida e envolvente torna o exercício divertido e ajuda as crianças a permanecerem engajadas com a prática de respiração."
+      },
+      "tips": {
+        "title": "Dicas para Respiração de Bolhas Mágicas",
+        "items": [
+          "Observe a bolha cuidadosamente enquanto ela cresce e encolhe",
+          "Tente fazer sua respiração corresponder ao movimento da bolha",
+          "Leve seu tempo - não há pressa!",
+          "Se sentir tontura, diminua o ritmo e faça uma pausa"
+        ]
+      }
+    }
   }
 }

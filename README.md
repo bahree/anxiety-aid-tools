@@ -73,7 +73,6 @@ A collection of anxiety management techniques built around four core principles.
 - **🎨 Interactive Art** - Creative drawing with symmetry and flowing patterns
 
 #### For Kids
-- **🦸 Superhero Breathing** - Kid-friendly breathing with superhero theme
 - **🔍 5 Senses Scavenger Hunt** - Fun grounding game using all 5 senses
 - **🫙 Calm Down Jar** - Visual meditation timer with animated glitter
 - **👾 Worry Monster** - Externalize worries by "feeding" them to a friendly monster
@@ -126,7 +125,7 @@ A collection of anxiety management techniques built around four core principles.
 
 #### Using Docker (Recommended)
 ```bash
-# Pull and run the Docker image
+# Pull and run the Docker image (production)
 docker run -d -p 3000:3000 --name anxiety-aid-tools --restart unless-stopped \
   amitbahree/anxiety-aid-tools:latest
 ```
@@ -142,6 +141,8 @@ docker-compose up -d
 ```
 
 **Docker Image:** [amitbahree/anxiety-aid-tools](https://hub.docker.com/repository/docker/amitbahree/anxiety-aid-tools) on Docker Hub
+
+> **Note:** For testing pre-release versions, use the `dev` tag: `amitbahree/anxiety-aid-tools:dev`. The `latest` tag is the stable production release.
 
 For detailed Docker build and deployment instructions, see [DOCKER.md](./DOCKER.md).
 

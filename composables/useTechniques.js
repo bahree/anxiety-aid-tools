@@ -62,13 +62,6 @@ export const useTechniques = () => {
       iconColor: 'text-orange-600',
       tags: ['high-anxiety', 'short-time']
     },
-    'superhero-breathing': {
-      id: 'superheroBreathing',
-      icon: 'ph:mask-fill',
-      iconColor: 'text-red-600',
-      tags: ['kids', 'high-anxiety', 'short-time'],
-      isNew: true
-    },
     'scavenger-hunt-grounding': {
       id: 'scavengerHuntGrounding',
       icon: 'ph:magnifying-glass-fill',

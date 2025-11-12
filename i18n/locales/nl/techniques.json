@@ -59,6 +59,12 @@
       "short_description": "Interactieve stressbal om spanning weg te knijpen en angstige energie om te leiden door tactiele betrokkenheid",
       "description": "Soms heeft fysieke spanning een fysieke release nodig. Deze virtuele stressbal biedt een bevredigende tactiele ervaring die helpt nerveuze energie en angst te kanaliseren in doelmatige knijpbewegingen. De repetitieve actie helpt uw geest te kalmeren terwijl uw lichaam een manier krijgt om opgebouwde stress en spanning los te laten.",
       "duration": "1-5 min"
+    },
+    "magicBubbleBreathing": {
+      "name": "Magische Bubbel Ademhaling",
+      "short_description": "Kijk hoe een mooie bubbel groeit en krimpt terwijl je ademt",
+      "description": "Blaas een magische bubbel met je ademhaling! Kijk hoe de bubbel groter wordt wanneer je inademt en kleiner wanneer je uitademt. De kleurrijke, glinsterende bubbel helpt je je te concentreren op je ademhaling en je kalm te voelen. Het is alsof je echte bubbels blaast, maar nog magischer!",
+      "duration": "2-3 min"
     }
   }
 }

@@ -1428,55 +1428,6 @@
       }
     }
   },
-  "superheroBreathing": {
-    "benefits": {
-      "strong": {
-        "title": "Feel Strong",
-        "description": "Like a superhero with superpowers!"
-      },
-      "calm": {
-        "title": "Stay Calm",
-        "description": "Your body will feel peaceful and relaxed"
-      },
-      "brave": {
-        "title": "Be Brave",
-        "description": "You can handle anything that comes your way"
-      }
-    },
-    "session": {
-      "title": "Superhero Breathing Time!",
-      "subtitle": "Use your superpower breath to feel calm",
-      "breatheIn": "Breathe in like a superhero!",
-      "breatheOut": "Breathe out slowly...",
-      "threeSeconds": "3 seconds",
-      "breaths": "super breaths"
-    },
-    "buttons": {
-      "begin": "Start Superhero Breathing",
-      "beginAriaLabel": "Start the superhero breathing exercise",
-      "stop": "Stop",
-      "tryAgain": "Try Again"
-    },
-    "completion": {
-      "title": "You Did It, Superhero!",
-      "message": "Great job! You used your superpower breath to feel calm and strong. You can do this anytime you need to feel better!"
-    },
-    "education": {
-      "howItWorks": {
-        "title": "How Superhero Breathing Works",
-        "description": "When you breathe like a superhero, you're using your superpower to calm your body down. Just like superheroes need to take deep breaths before they save the day, you can use this breathing to feel strong and calm whenever you need to!"
-      },
-      "tips": {
-        "title": "Tips for Superhero Breathing",
-        "items": [
-          "Find a comfy spot where you can sit or lie down",
-          "Pretend you're your favorite superhero while you breathe",
-          "It's okay if you don't get it perfect - practice makes you stronger!",
-          "You can do this anytime you feel worried or scared"
-        ]
-      }
-    }
-  },
   "scavengerHunt": {
     "benefits": {
       "focus": {
@@ -2095,7 +2046,9 @@
       "breatheIn": "Breathe In",
       "breatheOut": "Breathe Out",
       "makeBigger": "Make the bubble bigger!",
-      "makeSmaller": "Let the bubble get smaller!"
+      "makeSmaller": "Let the bubble get smaller!",
+      "bubblesCollected": "Bubbles Collected",
+      "clickToPop": "Click the bubble when it's big to pop it and collect bubbles!"
     },
     "buttons": {
       "begin": "Start Blowing Bubbles",

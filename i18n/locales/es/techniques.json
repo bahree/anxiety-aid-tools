@@ -59,6 +59,12 @@
       "short_description": "Pelota de estrés interactiva para apretar la tensión y redirigir la energía ansiosa a través del compromiso táctil",
       "description": "A veces la tensión física necesita una liberación física. Esta pelota de estrés virtual proporciona una experiencia táctil satisfactoria que ayuda a canalizar la energía nerviosa y la ansiedad en movimientos de apretamiento con propósito. La acción repetitiva ayuda a calmar tu mente mientras le da a tu cuerpo una manera de liberar el estrés y la tensión acumulados.",
       "duration": "1-5 min"
+    },
+    "magicBubbleBreathing": {
+      "name": "Respiración de Burbujas Mágicas",
+      "short_description": "Observa una hermosa burbuja crecer y encogerse mientras respiras",
+      "description": "¡Sopla una burbuja mágica con tu respiración! Observa la burbuja crecer más grande cuando inhalas y hacerse más pequeña cuando exhalas. La burbuja colorida y brillante te ayuda a enfocarte en tu respiración y sentirte tranquilo. ¡Es como soplar burbujas reales, pero aún más mágico!",
+      "duration": "2-3 min"
     }
   }
 }

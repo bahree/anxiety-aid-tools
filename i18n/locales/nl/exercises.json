@@ -1427,5 +1427,56 @@
         "description": "Dagelijkse sessies van 10-20 minuten bieden het meeste voordeel voor angstvermindering."
       }
     }
+  },
+  "magicBubbleBreathing": {
+    "benefits": {
+      "calm": {
+        "title": "Voel Kalmte",
+        "description": "Ademhaling helpt je lichaam te ontspannen"
+      },
+      "focus": {
+        "title": "Focus Je Geest",
+        "description": "Kijk naar de bubbel om aanwezig te blijven"
+      },
+      "fun": {
+        "title": "Leuk en Magisch",
+        "description": "Mooie bubbels maken ademhalen leuk!"
+      }
+    },
+    "session": {
+      "title": "Blaas Magische Bubbels!",
+      "subtitle": "Kijk hoe de bubbel groeit en krimpt met je ademhaling",
+      "breaths": "bubbels",
+      "breatheIn": "Adem In",
+      "breatheOut": "Adem Uit",
+      "makeBigger": "Maak de bubbel groter!",
+      "makeSmaller": "Laat de bubbel kleiner worden!",
+      "bubblesCollected": "Bubbels Verzameld",
+      "clickToPop": "Klik op de bubbel wanneer deze groot is om hem te laten knappen en bubbels te verzamelen!"
+    },
+    "buttons": {
+      "begin": "Begin Bubbels te Blazen",
+      "stop": "Stop",
+      "tryAgain": "Blaas Meer Bubbels"
+    },
+    "completion": {
+      "title": "Geweldig!",
+      "message": "Je hebt het gedaan! Je hebt mooie magische bubbels geblazen met je ademhaling. De bubbel hielp je langzaam te ademen en je kalm te voelen. Onthoud, je kunt altijd terugkomen en meer bubbels blazen wanneer je je beter moet voelen!"
+    },
+    "education": {
+      "howItWorks": {
+        "title": "Hoe Magische Bubbel Ademhaling Werkt",
+        "description": "Magische Bubbel Ademhaling gebruikt een visuele bubbel die groeit wanneer je inademt en krimpt wanneer je uitademt. Deze visuele hulp helpt kinderen zich te concentreren op hun ademhalingspatroon en langzame, gecontroleerde ademhaling te oefenen. De kleurrijke, boeiende bubbel maakt de oefening leuk en helpt kinderen betrokken te blijven bij de ademhalingsoefening."
+      },
+      "tips": {
+        "title": "Tips voor Magische Bubbel Ademhaling",
+        "items": [
+          "Kijk aandachtig naar de bubbel terwijl deze groeit en krimpt",
+          "Probeer je ademhaling te laten overeenkomen met de beweging van de bubbel",
+          "Neem je tijd - er is geen haast!",
+          "Als je je duizelig voelt, vertraag en neem een pauze"
+        ]
+      }
+    }
   }
 }

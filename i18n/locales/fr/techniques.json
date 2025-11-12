@@ -59,6 +59,12 @@
       "short_description": "Balle anti-stress interactive pour évacuer les tensions et rediriger l'énergie anxieuse par l'engagement tactile",
       "description": "Parfois, les tensions physiques nécessitent une libération physique. Cette balle anti-stress virtuelle offre une expérience tactile satisfaisante qui aide à canaliser l'énergie nerveuse et l'anxiété en mouvements de compression ciblés. L'action répétitive aide à calmer votre esprit tout en donnant à votre corps un moyen de libérer le stress et les tensions accumulées.",
       "duration": "1-5 min"
+    },
+    "magicBubbleBreathing": {
+      "name": "Respiration de Bulles Magiques",
+      "short_description": "Regardez une belle bulle grandir et rétrécir pendant que vous respirez",
+      "description": "Soufflez une bulle magique avec votre respiration ! Regardez la bulle grandir quand vous inspirez et rétrécir quand vous expirez. La bulle colorée et scintillante vous aide à vous concentrer sur votre respiration et à vous sentir calme. C'est comme souffler de vraies bulles, mais encore plus magique !",
+      "duration": "2-3 min"
     }
   }
 }

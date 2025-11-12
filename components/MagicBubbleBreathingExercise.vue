@@ -67,8 +67,9 @@
           <div class="mb-8 relative">
             <canvas
               ref="bubbleCanvas"
-              class="border-2 border-cyan-200 dark:border-cyan-700 rounded-full bg-gradient-to-br from-sky-100 to-blue-100 dark:from-slate-800 dark:to-slate-900"
+              class="border-2 border-cyan-200 dark:border-cyan-700 rounded-full bg-gradient-to-br from-sky-100 to-blue-100 dark:from-slate-800 dark:to-slate-900 cursor-pointer"
               :style="{ width: '300px', height: '300px' }"
+              @click="popBubble"
             ></canvas>
             
             <!-- Floating Sparkles -->
@@ -85,6 +86,37 @@
             >
               <Icon name="ph:sparkle-fill" class="text-cyan-400" :style="{ fontSize: sparkle.size + 'px' }" />
             </div>
+            
+            <!-- Floating Bubbles Collection -->
+            <div v-if="floatingBubbles.length > 0" class="absolute inset-0 pointer-events-none">
+              <div
+                v-for="(bubble, index) in floatingBubbles"
+                :key="index"
+                class="absolute rounded-full border-2 border-cyan-300 dark:border-cyan-500"
+                :style="{
+                  left: bubble.x + 'px',
+                  top: bubble.y + 'px',
+                  width: bubble.size + 'px',
+                  height: bubble.size + 'px',
+                  opacity: bubble.opacity,
+                  transform: `scale(${bubble.scale})`,
+                  background: `radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8), rgba(147,197,253,0.4))`
+                }"
+              ></div>
+            </div>
+          </div>
+          
+          <!-- Bubble Collection Counter -->
+          <div class="mb-4 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-cyan-100 dark:bg-cyan-900/30 rounded-full">
+              <Icon name="ph:circle-dashed-fill" class="text-cyan-600 dark:text-cyan-400" />
+              <span class="text-lg font-bold text-cyan-700 dark:text-cyan-300">
+                {{ $t("magicBubbleBreathing.session.bubblesCollected") }}: {{ bubblesCollected }}
+              </span>
+            </div>
+            <p class="text-sm text-gray-600 dark:text-slate-400 mt-2">
+              {{ $t("magicBubbleBreathing.session.clickToPop") }}
+            </p>
           </div>
 
           <!-- Breathing Guidance -->
@@ -175,11 +207,14 @@ const totalBreaths = ref(5)
 const remainingTime = ref(3000)
 const breathProgress = ref(0)
 const sparkles = ref([])
+const floatingBubbles = ref([])
+const bubblesCollected = ref(0)
 
 let ctx = null
 let breathInterval = null
 let progressInterval = null
 let sparkleInterval = null
+let bubbleFloatInterval = null
 let animationFrame = null
 const breathDuration = 3000 // 3 seconds for kids
 const bubbleSize = ref(0.4) // Start small (exhaled)
@@ -193,6 +228,54 @@ const initCanvas = () => {
   ctx = bubbleCanvas.value.getContext('2d')
   
   drawBubble()
+}
+
+const popBubble = (e) => {
+  if (!bubbleCanvas.value || !exerciseActive.value) return
+  
+  const rect = bubbleCanvas.value.getBoundingClientRect()
+  const clickX = e.clientX - rect.left
+  const clickY = e.clientY - rect.top
+  const centerX = bubbleCanvas.value.width / 2
+  const centerY = bubbleCanvas.value.height / 2
+  const radius = 80 * bubbleSize.value
+  
+  // Check if click is within the main bubble
+  const distance = Math.sqrt((clickX - centerX) ** 2 + (clickY - centerY) ** 2)
+  
+  if (distance <= radius && breathingPhase.value === 'inhale' && bubbleSize.value > 0.7) {
+    // Pop the bubble and create floating bubbles
+    bubblesCollected.value++
+    
+    // Create multiple small floating bubbles
+    for (let i = 0; i < 5; i++) {
+      floatingBubbles.value.push({
+        x: centerX + (Math.random() - 0.5) * 50,
+        y: centerY + (Math.random() - 0.5) * 50,
+        size: 15 + Math.random() * 20,
+        opacity: 0.8,
+        scale: 1,
+        vx: (Math.random() - 0.5) * 3,
+        vy: -2 - Math.random() * 2
+      })
+    }
+    
+    // Reset bubble size for next breath
+    bubbleSize.value = 0.4
+  }
+}
+
+const updateFloatingBubbles = () => {
+  floatingBubbles.value = floatingBubbles.value
+    .map(bubble => ({
+      ...bubble,
+      x: bubble.x + bubble.vx,
+      y: bubble.y + bubble.vy,
+      opacity: bubble.opacity * 0.98,
+      scale: bubble.scale * 0.99,
+      vy: bubble.vy + 0.1 // gravity
+    }))
+    .filter(bubble => bubble.opacity > 0.1 && bubble.y < 350)
 }
 
 const drawBubble = () => {
@@ -291,6 +374,7 @@ const animateBubble = () => {
     targetBubbleSize.value = 0.4
   }
   
+  updateFloatingBubbles()
   drawBubble()
   
   if (exerciseActive.value) {
@@ -335,6 +419,8 @@ const startExercise = () => {
   breathProgress.value = 0
   bubbleSize.value = 0.4
   sparkles.value = []
+  floatingBubbles.value = []
+  bubblesCollected.value = 0
   
   nextTick(() => {
     initCanvas()
@@ -386,6 +472,7 @@ const stopExercise = () => {
   if (breathInterval) clearInterval(breathInterval)
   if (progressInterval) clearInterval(progressInterval)
   if (sparkleInterval) clearInterval(sparkleInterval)
+  if (bubbleFloatInterval) clearInterval(bubbleFloatInterval)
   if (animationFrame) cancelAnimationFrame(animationFrame)
   
   exerciseActive.value = false
@@ -393,6 +480,8 @@ const stopExercise = () => {
   currentBreath.value = 0
   breathingPhase.value = 'inhale'
   sparkles.value = []
+  floatingBubbles.value = []
+  bubblesCollected.value = 0
 }
 
 const restartExercise = () => {
@@ -406,11 +495,13 @@ const completeExercise = () => {
   if (breathInterval) clearInterval(breathInterval)
   if (progressInterval) clearInterval(progressInterval)
   if (sparkleInterval) clearInterval(sparkleInterval)
+  if (bubbleFloatInterval) clearInterval(bubbleFloatInterval)
   if (animationFrame) cancelAnimationFrame(animationFrame)
   
   exerciseActive.value = false
   exerciseCompleted.value = true
   sparkles.value = []
+  floatingBubbles.value = []
 }
 
 onMounted(() => {
@@ -423,6 +514,7 @@ onUnmounted(() => {
   if (breathInterval) clearInterval(breathInterval)
   if (progressInterval) clearInterval(progressInterval)
   if (sparkleInterval) clearInterval(sparkleInterval)
+  if (bubbleFloatInterval) clearInterval(bubbleFloatInterval)
   if (animationFrame) cancelAnimationFrame(animationFrame)
 })
 </script>
