@@ -8,6 +8,7 @@
 
 [![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Multilingual Support](https://img.shields.io/badge/Languages-4-blue?logo=google-translate)](https://github.com/alvinunreal/anxiety-aid-tools)
+[![Docker Image](https://img.shields.io/docker/pulls/amitbahree/anxiety-aid-tools?logo=docker)](https://hub.docker.com/repository/docker/amitbahree/anxiety-aid-tools)
 [![GitHub Stars](https://img.shields.io/github/stars/alvinunreal/anxiety-aid-tools?style=social)](https://github.com/alvinunreal/anxiety-aid-tools/stargazers)
 
 [**Website**](https://anxietyaidtools.com/) · [**Contribute**](#contributing) · [**Star Us**](https://github.com/alvinunreal/anxiety-aid-tools)
@@ -93,7 +94,28 @@ A collection of anxiety management techniques built around four core principles.
 
 ### **For Users**
 
-#### Local
+#### Using Docker (Recommended)
+```bash
+# Pull and run the Docker image
+docker run -d -p 3000:3000 --name anxiety-aid-tools --restart unless-stopped \
+  amitbahree/anxiety-aid-tools:latest
+```
+
+Or using Docker Compose:
+```bash
+# Clone the repository
+git clone https://github.com/alvinunreal/anxiety-aid-tools.git
+cd anxiety-aid-tools
+
+# Start with docker-compose
+docker-compose up -d
+```
+
+**Docker Image:** [amitbahree/anxiety-aid-tools](https://hub.docker.com/repository/docker/amitbahree/anxiety-aid-tools) on Docker Hub
+
+For detailed Docker build and deployment instructions, see [DOCKER.md](./DOCKER.md).
+
+#### Local Development
 ```bash
 # Visit the live demo
 https://anxietyaidtools.com/
