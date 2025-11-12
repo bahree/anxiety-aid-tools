@@ -1,46 +1,38 @@
-# Dependencies
+# Reduce build context size & keep layers cache-friendly
+# Node / Nuxt build artifacts
 node_modules
-.pnpm-store
-
-# Build outputs
-.nuxt
 .output
-.nitro
-dist
+.cache
+.nuxt
 
-# Git
+# VCS / IDE
 .git
 .gitignore
-
-# IDE
 .vscode
 .idea
-*.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
+# Logs & diagnostics
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
+*.log
 
-# Environment
+# Env / secrets (ensure you inject via build args or runtime env)
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
+certs/
 
-# Testing
+# Tests / coverage
 coverage
-.nyc_output
+reports
+
+# Docker & compose (not needed inside image)
+Dockerfile
+docker-compose.yml
 
 # Misc
-README.md
-DOCKER.md
-deploy.sh
-wrangler.toml
-docker-compose.yml
-Dockerfile
-
+.DS_Store
+Thumbs.db
+.pnpm-store
